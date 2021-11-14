@@ -3,14 +3,14 @@ body {
 }
 
 input {
-    caret-color: forestgreen;
+    caret-color: #198754;
 }
 
 .form-control {
-    outline: 3px solid rgb(224, 226, 224);
+    outline: 3px solid #eaebec;
     box-shadow: none;
 }
 .form-control:focus {
-    outline: 3px solid forestgreen;
+    outline: 3px solid #198754;
     box-shadow: none;
 }
