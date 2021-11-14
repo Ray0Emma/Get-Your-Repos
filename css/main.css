@@ -14,3 +14,10 @@ input {
     outline: 3px solid #198754;
     box-shadow: none;
 }
+
+svg {
+    fill: black;
+    width: 16;
+    height: 16;
+    /* display: inline-block; */
+}
