@@ -1,0 +1,16 @@
+body {
+    font-family: Tahoma, Arial;
+}
+
+input {
+    caret-color: forestgreen;
+}
+
+.form-control {
+    outline: 3px solid rgb(224, 226, 224);
+    box-shadow: none;
+}
+.form-control:focus {
+    outline: 3px solid forestgreen;
+    box-shadow: none;
+}
