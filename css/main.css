@@ -3,21 +3,26 @@ body {
 }
 
 input {
-    caret-color: #198754;
+    caret-color: #0D492D;
 }
 
 .form-control {
-    outline: 3px solid #eaebec;
-    box-shadow: none;
-}
-.form-control:focus {
-    outline: 3px solid #198754;
+    outline: 4px solid #f1f1f1;
     box-shadow: none;
 }
 
+.form-control:focus {
+    outline: 4px solid #0D492D;
+    box-shadow: none;
+}
+
+.btn-success {
+    background-color: #0D492D;
+    border-color: #0D492D;
+}
+
 svg {
-    fill: black;
+    fill: #0D492D;
     width: 16;
     height: 16;
-    /* display: inline-block; */
 }
