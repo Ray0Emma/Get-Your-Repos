@@ -19,7 +19,6 @@ function getRepos() {
       .then((data) => {
         // Empty The Container
         urRepos.innerHTML = "";
-        console.log(data);
         data.forEach((repo) => {
           // Create The main Div Col Element
           let divCol = document.createElement("div");
